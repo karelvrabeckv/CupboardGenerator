@@ -27,7 +27,7 @@ image::img3.jpg[]
 
 == **Parametry**
 
-image::3D/img/GUI.jpg[]
+image::img/GUI.jpg[]
 
 ** **Cover (FIRST X SHELF)**
 *** Pokrytí místa nalevo od první vertikální poličky (možnosti: dvířka, šuplíky, bez pokrytí)
@@ -80,19 +80,19 @@ Kombinací jednotlivých parametrů lze dosáhnout mnoha různých výsledků.
 
 === Kombinovaná skříň
 
-image::3D/img/Type1.jpg[]
+image::img/Type1.jpg[]
 
 === Šatní skříň
 
-image::3D/img/Type2.jpg[]
+image::img/Type2.jpg[]
 
 === Otevřená zásuvková skříň
 
-image::3D/img/Type3.jpg[]
+image::img/Type3.jpg[]
 
 === Komoda
 
-image::3D/img/Type4.jpg[]
+image::img/Type4.jpg[]
 
 == **Program**
 
@@ -121,13 +121,13 @@ Kód doplňku se skládá z následujících částí, proměnných a funkcí:
 
 Jako ukázku z GUI jsem si vybral úryvek kódu, který uživateli umožní nastavit, zdali mají jednotlivé části skříně (oddělené vertikálními poličkami) pokrývat dvířka, šuplíky, nebo zda mají zůstat prázdné.
 
-image::3D/img/Covers.jpg[]
+image::img/Covers.jpg[]
 
 == **Ukázka z části „Základní metody“**
 
 Pro tuto část poslouží metoda __create_x_separators()__, která vygeneruje daný počet vertikálních poliček seřazených podle osy X. Vlastní generování zařídí metoda __create_cube()__, které se pouze předají parametry pro název, pozici (X, Y, Z) a velikost (X, Y, Z) objektu. Např. pro výpočet Y-ové složky pozice se v rámci skříně postupuje zleva doprava a jsou v něm uvažovány i ostatní parametry (např. tloušťka skříně) tak, aby byl výsledek opravdu přesný. Pro výpočet X-ové složky pozice a velikosti se zase musí počítat se zadní stěnou, která má konstantní tloušťku 0.02. Důležité je zmínit, že ohledně velikosti dodáváme hodnoty, které znamenají pouze **poloměr** vytvořené krychle, zatímco ohledně pozice musíme tyto hodnoty zdvojnásobit.
 
-image::3D/img/Shelves.jpg[width=1014px]
+image::img/Shelves.jpg[width=1014px]
 
 == **Reference**
 
