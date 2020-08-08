@@ -4,7 +4,7 @@
 
 **Obrázek:**
  
-image::img3.jpg[]
+image::img/Result.jpg[]
  
 **Datum vydání:** 30. 1. 20
 
